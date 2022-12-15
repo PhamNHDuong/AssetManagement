@@ -1,0 +1,14 @@
+{
+  "api": {
+    "base": ".",
+    "auth": "./api/auth",
+    "asset": "/api/Assets",
+    "category": "/api/Category",
+    "assignement": "/api/Assignments",
+    "user":"./api/User",
+    "returningRequest": "/api/ReturnRequest"
+  },
+  "encryption": {
+    "key": "ahihi"
+  }
+}

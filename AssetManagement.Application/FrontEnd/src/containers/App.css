@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loginFormHeader {
+  margin: 10px;
+  --tw-gradient-to: #6a1f7a;
+  --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to,rgba(106,31,122,0));
+  --tw-gradient-from: #d6001c;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right,var(--tw-gradient-stops));
+  color: transparent;
+  font-weight: 700;
+}
+
+.loginFormBorder {
+  padding: 5%;
+  border: 8px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(270deg,#6a1f7a,#d6001c);
+}
+
+.loginHeaderBackground {
+  --tw-gradient-to: #6a1f7a;
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to,rgba(106,31,122,0));
+    --tw-gradient-from: #d6001c;
+    background-image: linear-gradient(to right,var(--tw-gradient-stops));
+}
+
+.loginButton {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.MuiPaper-root {
+  min-width: 240px;
+}
+
+/* .logout {
+  font-weight: bold;
+} */
+
+th > span {
+  font-weight: bold;
+}
